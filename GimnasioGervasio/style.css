@@ -1,0 +1,81 @@
+
+nav.index {
+text-align: center;   
+}
+
+p.index {
+    font-size: 14px; 
+    color: black; 
+    text-align: justify;
+    font-family: Calibri; 
+}
+
+table {
+    margin-left: 140px;
+    height: 120px;
+    border-collapse: collapse;
+    border: 1px solid black; 
+    width: 440px;
+    line-height: normal;
+    text-align: justify;
+    font-size: 12px;
+    font-family: Calibri; 
+  }
+
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    width: 120px;
+  }
+
+th{
+    background-color: lightgray;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+.mininos {
+    background-color: rgb(220, 162, 213);
+    background-image: url('sphynx.jpeg');
+    background-size: cover; 
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Trebuchet MS; 
+    align-items: center; 
+    float: left;
+}
+
+p {
+    font-size: 12px;
+}
+
+img {
+    width: 50%; 
+    padding: 1px; 
+}
+
+audio {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+ul {
+    text-align: left;
+    color:rgb(104, 71, 135);
+    font-size: 14px;
+}
+
+a:hover {
+    color: rgb(202, 117, 195);
+}
+
+li {
+    color: rgb(166, 116, 199);
+}
+footer {
+    margin-top: 50px;
+}
