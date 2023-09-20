@@ -1,3 +1,59 @@
 body {
-    background-color: rgb(79, 190, 103);
+    background-color: rgba(255,255,255,0.5);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: url(señoresjugando.jpeg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    opacity: 90%;
+    margin: 10%; 
+}
+
+h1, p {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 32px;
+    opacity: 100%;
+    text-shadow: 0.3px 0.3px #000000;
+    background-color: aliceblue;
+    border-radius: 15px;
+    opacity: 90%;
+}
+
+form {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 80px;
+    background-color: aliceblue;
+    opacity: 90%;
+    padding: 5%;
+    border-radius: 15px;
+    background-attachment: scroll;
+    font-size: 20px;
+}
+button {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-color: rgb(52, 130, 175);
+    color:rgb(2, 21, 24);
+    margin-bottom: 15px;
+}
+
+input {
+    text-shadow: 0.2px 0.2px #000000;
+    line-height: 0.5px;
+}
+
+.placeholder {
+    line-height: 1px;
+    size: 20px; 
+    padding: 15%
 }
