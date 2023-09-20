@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Al ladrón!</title>
+</head>
+<body>
+<h1>Policía local de Entrepenes</h1>
+<p>Si ha desaparecido su bicicleta en extrañas circunstancias, rellene el siguiente formulario:</p>
+<br>
+<form id="formulario">
+  <label for="fecha">Día del suceso:</label>
+    <input type="date" id="fecha" name="fecha">
+    <input type="time" value="00:00" min="00:01" max="23:59" step="30">
+  <br>
+  <label for="rango">Rango de precio:</label>
+  <input type="range" min="0" max="80000" oninput="this.nextElementSibling.value = this.value"><output>100</output> <br>
+<br>
+  <label for="bicicletas">Tipo de bicicleta:</label>
+    <select name="bicicletas" id="paseo">
+    <option value="selecciona">Selecciona</option>
+    <option value="señorial">Señorial</option>
+    <option value="antiplebe">Anti-plebeyos</option>
+    <option value="encimahombro">PorEncimaDelHombro</option>
+    <option value="gamusinos">Gamusinos</option>
+    <option value="hueleflores">Hueleflores Premium</option>
+    <option value="fango">Fango lover</option>
+    <option value="metroymedio">Metroymedio</option>
+    <option value="fluorescente"> 3PM. Fluorescente Edition</option>
+    <option value="grupito">Grupitors</option>
+    </select>
+<br>
+    <label for="bicicletas">Accesorios: </label>
+    <select name="bicicletas" id="accesorios">
+    <option value="selecciona">Selecciona</option>
+    <option value="antiplebe">Ruedines</option>
+    <option value="encimahombro">Pegatinas</option>
+    <option value="gamusinos">Cestita</option>
+    <option value="hueleflores">Bomba de aire</option>
+    <option value="fango">Timbre</option>
+    <option value="metroymedio">Foco</option>
+    </select>
+<br>
+    <label for="marcas">¿Qué marca era?:</label>
+    <select name="marcas" id="marcas">
+    <option value="selecciona">Selecciona</option>
+    <option value="specialized">Specialized</option>
+    <option value="trek">Trek</option>
+    <option value="merida">Merida</option>
+    <option value="scott">Scott</option>
+    <option value="giant">Giant</option>
+    <option value="cube">Cube</option>
+    <option value="lapierre">Lapierre</option>
+    <option value="orbea">Orbea</option>
+    <option value="cannondale">Cannondale</option>
+    <option value="bmc">BMC</option>
+    <option value="canyon">Canyon</option>
+    <option value="look">Look</option>
+    <option value="protek">Protek</option>
+    <option value="megamo">Megamo</option>
+    <option value="ghost">Ghost</option>
+    <option value="cervelo">Cervelo</option>
+    <option value="argon">Argon</option>
+    </select>
+</form>
+<br>
+<div class="contact">
+<p>Indíquenos además con quién ponernos en contacto:</p><br>
+<form id="formulario">
+  <label for="name" id="name">
+  Nombre:
+  </label>
+  <input type="email" id="email" placeholder="Email" />
+  <label for="contact" id="contact">
+  Teléfono:
+  </label>
+  <input type="text" id="contact" placeholder="Teléfono de contacto" />
+  <div class="form-control">
+  <label for="email" id="label-email">
+  E-mail:
+  </label>
+  <input type="email" id="email" placeholder="Email" />
+  </div>
+  </div><br>
+  <div class="button">
+  <button type="reset" value="reset" id="reset">
+  Borrar
+  </button>
+  <button type="submit" value="submit" id="submit">
+  Enviar
+  </button>
+  </div>
+  </div>
+</form>
+</body>
+<footer>
+Muchas gracias por su colaboración. 
+</footer>
+</html>

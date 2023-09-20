@@ -1,0 +1,70 @@
+head {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+body {
+    background-image: url(bike-231214_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p, h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 32px;
+    opacity: 100%;
+    text-shadow: 0.3px 0.3px #000000;
+    background-color: aliceblue;
+    border-radius: 15px;
+    opacity: 90%;
+}
+
+background-image {
+    opacity: 50%;
+}
+
+
+form, label, select, input {
+    text-align: left;
+    line-height: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: rgba(240, 248, 255, 0.8);
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+select {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.date {
+    line-height: 12px;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 250px;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 350px;
+    margin-left: 20px;
+    text-shadow: 0.3px 0.3px #000000;
+    background-color: aliceblue;
+    opacity: 90%;
+    border-radius: 15px;
+}
