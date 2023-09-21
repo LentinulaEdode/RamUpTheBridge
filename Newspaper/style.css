@@ -2,8 +2,8 @@
 body        {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
-    color: #2f2f2f;
-    background-color: #f9f7f1;
+    color: #000000;
+    background-color: #dcd4be82;
 }
 
 header      {
@@ -42,22 +42,27 @@ head        {
 .content    {
     font-size: 0;
     line-height: 0;
-    word-spacing: -.31em;
+    word-spacing: 1.3em;
     display: inline-block;
     margin: 30px 2% 0 2%;
 }
 
 .collumn    {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 22px;
     width: 17%;
     display: inline-block;
-    padding: 0 1% 0 1%;
+    padding: 1% 1% 0 1%;
     vertical-align: top;
-    margin-bottom: 50px;
-    transition: all .7s;
-    border-left: 1px solid #302f2f;
+    margin-bottom: 20px;
+    border-left: 3px;
+    column-count: 2;
+    column-width: 80px;
+    border: 5px;
+    border-style:hidden;
 }
+
+/*Se desajusta la primera noticia respecto al resto, qué falla?*/
 
 .collumn .headline      {
     text-align: center;
@@ -66,59 +71,25 @@ head        {
     display: block;
     margin: auto;
     font-size: 30px;
+    border: 2px;
 }
 
-.collumn .headline.hl1, .headline.hl2, .headline.hl3 {
-    font-weight: 500;
+.collumn .headline.hl1, {
+    font-weight: 300;
     font-size: 24px;
     text-transform: uppercase;
     padding: 10px 0 10px 0;
     font-style: italic;
-    box-sizing: border-box;
-    padding: 10px 0 10px 0;
+    border: 5px;
+    display: flexbox;
 }
 
-.headline.hl4, .headline.hl5 {
-    font-weight: 700;
-    font-size: 18px;
-
-}
-
-.collumn .headline.hl2:before{
-    border-top: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 7px;
-    display: block;
-    margin: 0 auto;
-}
-
-.collumn .headline.hl2:after{
-    border-bottom: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 8px;
-    display: block;
-    margin: 0 auto;
-
-}
-
-.collumn .headline.hl4:before{
-    border-top: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 7px;
-    display: block;
-    margin: 0 auto;
-}
-.collumn .headline.hl4:after    {
-    border-bottom: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 10px;
-    display: block;
-    margin: 0 auto;
-
+.headline.hl4 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color:rgb(38, 5, 5);
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .collumn .figure    {
@@ -132,4 +103,8 @@ head        {
 .media {
     filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8);
     width: 100%;
+}
+
+article {
+    orientation: landscape;
 }
